@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação de Relações Algébricas</title>
+    <link rel="stylesheet" href="atividade1.css">
+</head>
+
+<body>
+    <div class="top-bar">Álgebra Superior</div>
+
+    <h2>Explicação Simples de Relações Algébricas</h2>
+
+    <h3>1. Construção da Relação (x<sup>2</sup> = y)</h3>
+    <p><span class="highlight">O que é uma relação?</span> Imagine que uma "relação" é uma regra que conecta dois
+        números. Por exemplo, temos dois números <span class="highlight">x</span> e <span class="highlight">y</span>. A
+        relação que estudamos é que <span class="highlight">y</span> é o quadrado de <span class="highlight">x</span>.
+        Ou seja, para cada número <span class="highlight">x</span>, existe um <span class="highlight">y</span>, que é o
+        resultado de <span class="highlight">x × x</span>.</p>
+    <p class="example">Exemplo da atividade: Se x = 2, então y = 2<sup>2</sup> = 4. Assim, (2, 4) é um par relacionado.
+    </p>
+    <p class="example">Exemplo simples: Se x = 3, então y = 9, pois 3<sup>2</sup> = 9. O par seria (3, 9).</p>
+
+    <h3>2. Propriedades das Relações</h3>
+    <p>Abaixo estão as propriedades que verificamos nas relações:</p>
+
+    <h4>Reflexiva</h4>
+    <p>Para ser reflexiva, o número <span class="highlight">x</span> deveria estar sempre relacionado com ele mesmo, ou
+        seja, <span class="highlight">x = x<sup>2</sup></span>. Isso só acontece para <span class="important">x =
+            0</span> e <span class="important">x = 1</span>, porque para outros números, <span
+            class="highlight">x<sup>2</sup></span> é diferente de <span class="highlight">x</span>.</p>
+    <p class="example">Exemplo: Para x = 2, o quadrado de 2 é 4, então (2, 4) está relacionado, mas (2, 2) não está.</p>
+
+    <h4>Simétrica</h4>
+    <p>Para ser simétrica, se <span class="highlight">x</span> está relacionado com <span class="highlight">y</span>,
+        então <span class="highlight">y</span> também deveria estar relacionado com <span class="highlight">x</span>. Na
+        nossa relação, isso não acontece.</p>
+    <p class="example">Exemplo: Se x = 2 e y = 4 (porque 2<sup>2</sup> = 4), então (2, 4) está relacionado, mas o
+        inverso não funciona: 4<sup>2</sup> ≠ 2.</p>
+
+    <h4>Transitiva</h4>
+    <p>Para ser transitiva, se <span class="highlight">x</span> está relacionado com <span class="highlight">y</span> e
+        <span class="highlight">y</span> está relacionado com <span class="highlight">z</span>, então <span
+            class="highlight">x</span> deveria estar relacionado com <span class="highlight">z</span>. Mas essa relação
+        também não é transitiva.
+    </p>
+    <p class="example">Exemplo: Se x = 2, y = 4, e z = 16, temos 2<sup>2</sup> = 4 e 4<sup>2</sup> = 16, mas
+        2<sup>2</sup> ≠ 16.</p>
+
+    <h4>Antissimétrica</h4>
+    <p>Para ser antissimétrica, se <span class="highlight">x</span> está relacionado com <span
+            class="highlight">y</span> e <span class="highlight">y</span> está relacionado com <span
+            class="highlight">x</span>, então <span class="highlight">x = y</span>. No nosso caso, a relação é
+        antissimétrica porque isso só acontece quando <span class="important">x = 0</span> ou <span class="important">x
+            = 1</span>.</p>
+
+    <h3>3. Relação Inversa (y<sup>2</sup> = x)</h3>
+    <p>A relação inversa troca os papéis de <span class="highlight">x</span> e <span class="highlight">y</span>. Agora,
+        ao invés de <span class="highlight">y = x<sup>2</sup></span>, temos <span class="highlight">x =
+            y<sup>2</sup></span>.</p>
+    <p class="example">Exemplo: Se x = 4 e y = 2, isso significa que (4, 2) está relacionado, porque 2<sup>2</sup> = 4.
+    </p>
+
+    <h3>4. Relação (y = x + 2)</h3>
+    <p>Nesta relação, <span class="highlight">y</span> é sempre 2 unidades maior que <span class="highlight">x</span>.
+        Para cada <span class="highlight">x</span>, <span class="highlight">y</span> será <span class="highlight">x +
+            2</span>.</p>
+    <p class="example">Exemplo da atividade: Se x = 3, então y = 5 (porque 3 + 2 = 5).</p>
+
+    <h4>Propriedades da Relação y = x + 2</h4>
+    <ul>
+        <li><span class="highlight">Reflexiva:</span> Não é reflexiva, porque x ≠ x + 2.</li>
+        <li><span class="highlight">Simétrica:</span> Não é simétrica, porque se y = x + 2, então x ≠ y + 2.</li>
+        <li><span class="highlight">Transitiva:</span> Não é transitiva, porque se y = x + 2 e z = y + 2, então z = x +
+            4.</li>
+        <li><span class="highlight">Antissimétrica:</span> É antissimétrica, porque não pode haver (x, y) e (y, x) ao
+            mesmo tempo.</li>
+    </ul>
+
+    <h3>5. Relação com Vetores</h3>
+    <p>Agora estamos comparando vetores. Um vetor é como um par de números, como <span class="highlight">v =
+            (v<sub>1</sub>, v<sub>2</sub>)</span>. A relação compara o comprimento (norma) de dois vetores.</p>
+    <p class="example">Exemplo: Se v = (2, 3) e w = (4, 5), a norma de v é √13 e a de w é √41. Como √13 ≤ √41, v está
+        relacionado com w.</p>
+
+    <h4>Propriedades da Relação com Vetores</h4>
+    <ul>
+        <li><span class="highlight">Reflexiva:</span> Sim, porque ||v|| = ||v||.</li>
+        <li><span class="highlight">Simétrica:</span> Não, porque ||v|| ≤ ||w|| não implica que ||w|| ≤ ||v||.</li>
+        <li><span class="highlight">Transitiva:</span> Sim, se ||v|| ≤ ||w|| e ||w|| ≤ ||u||, então ||v|| ≤ ||u||.</li>
+        <li><span class="highlight">Antissimétrica:</span> Sim, se ||v|| = ||w||, então v = w.</li>
+    </ul>
+</body>
+
+</html>
