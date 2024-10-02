@@ -30,6 +30,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
     margin-top: 50px;
     /* Adding space due to fixed top bar */
@@ -37,6 +38,7 @@ body {
 
 .button {
     padding: 10px 10px;
+    margin: 0 30px 0 30px;
     font-size: 18px;
     background-color: #2980b9;
     color: rgb(255, 255, 255);
