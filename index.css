@@ -28,6 +28,7 @@ body {
 
 .content-buttons {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
